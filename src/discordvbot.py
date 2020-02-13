@@ -4,8 +4,8 @@ import random
 import discord
 
 # 自分のBotのアクセストークンに置き換えてください
-TOKEN = os.environ('DISCOBOT_TOKEN')
-CHANNEL_ID = int(os.environ("CHANNEL_ID"))  # 任意のチャンネルID(int)
+TOKEN = os.environ.get('DISCOBOT_TOKEN')
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID"))  # 任意のチャンネルID(int)
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data')
 
 # 接続に必要なオブジェクトを生成
