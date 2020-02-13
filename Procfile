@@ -1,1 +1,1 @@
-discordbot: python discordvbot.py
+discobot: python src/discordvbot.py
